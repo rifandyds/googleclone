@@ -1,0 +1,62 @@
+/* Khusus judul */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#big_container {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container div {
+    align-items: center;
+    font-size: 40px;
+}
+
+.G1 {
+    color: rgb(22, 140, 244)
+}
+
+.G2 {
+    color: rgb(253, 44, 44);
+}
+
+#G3 {
+    color: rgb(255, 162, 0);
+}
+
+#G5 {
+    color: rgb(28, 198, 33);
+}
+
+input {width: 400px; border: none; margin-left: 5px;}
+
+input:focus {outline:none;}
+
+.container_search {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    margin-bottom: 250px;
+    border-radius: 200px;
+    padding: 9px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.search_icon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
