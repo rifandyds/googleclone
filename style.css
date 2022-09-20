@@ -121,6 +121,34 @@ input:focus {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#navbar {}
+#navbar {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    align-self: flex-end;
+}
 
-#photoicon {border-radius: 50%;}
+#appsicon {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+#appsicon:hover {
+    background-color: rgb(229, 228, 228);
+}
+
+
+#photoicon {
+    border-radius: 50%;
+}
+
+.Anav {
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
